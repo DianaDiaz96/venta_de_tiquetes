@@ -1,0 +1,19 @@
+body
+{
+    background-image: url("fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1800px 700px;
+}
+#dispensador{
+    margin-top: 10px;
+    width: 500px;
+    height: 500px;
+}
+h1{
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 80px;
+    margin-bottom: 0px;
+}

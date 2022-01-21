@@ -60,7 +60,7 @@ var dest_usuario;
 var hora_usuario;
 var pasajeros_cantidad;
 
-peticion_viaje();
-asignar_asientos();
+//peticion_viaje();
+//asignar_asientos();
 
 
