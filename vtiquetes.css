@@ -5,8 +5,8 @@ body
     background-attachment: fixed;
     background-size: 1800px 700px;
 }
-#dispensador{
-    margin-top: 10px;
+#imagen_dispensador{
+    margin-top: 40px;
     width: 500px;
     height: 500px;
 }
@@ -16,4 +16,11 @@ h1{
     margin-top: 20px;
     font-size: 80px;
     margin-bottom: 0px;
+}
+#display{
+    background-image: url("dispensador.jpg");
+    background-repeat: no-repeat;
+    background-size: 905px 800px;
+    background-position-x: -95px;
+    background-position-y: -115px;
 }
