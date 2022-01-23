@@ -17,10 +17,12 @@ h1{
     font-size: 80px;
     margin-bottom: 0px;
 }
-#display{
-    background-image: url("dispensador.jpg");
-    background-repeat: no-repeat;
-    background-size: 905px 800px;
-    background-position-x: -95px;
-    background-position-y: -115px;
+#pantalla{
+    background-color: black;
+    color: yellow;
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+}
+.buttons{
+    text-align: center;   
 }

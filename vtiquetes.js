@@ -1,7 +1,8 @@
 class Transporte
 {
-    constructor(tipo, origen, destino, hora, asientos)
+    constructor(n_vuelo, tipo, origen, destino, hora, asientos)
     {
+        this.n_plane = n_vuelo;
         this.type = tipo;
         this.origin = origen;
         this.destiny = destino;
@@ -10,9 +11,83 @@ class Transporte
     }
 }
 
-var avion1 = new Transporte("avion", "Ecuadorrrr", "Canada", "7 am", 45);
-var bus1 = new Transporte("bus", "quito", "guayaquil", "12 am", 35);
+var transportes = [];
+transportes.push(new Transporte(1, "avion", "Ecuadorrrr", "Canada", "7 am", 45))
+transportes.push(new Transporte(1, "bus", "quito", "guayaquil", "12 am", 35))
 
+
+//elecciones del usuario
+var dest_usuario;
+var hora_usuario;
+var pasajeros_cantidad;
+
+//pregunta actual
+var s_destiny = true;
+var s_hour = false;
+var c_people = false;
+
+var b_back = document.getElementById("back");
+var b_select = document.getElementById("select");
+var b_next = document.getElementById("next");
+
+b_back.addEventListener("click", go_back);
+b_select.addEventListener("click", select_item);
+b_next.addEventListener("click", go_next);
+
+
+
+//FUNCTIONS//
+
+//funciones de los botones
+
+function go_back()
+{
+    switch(true)
+    {
+        case s_destiny:
+            alert("destino");
+        break;
+        case s_hour:
+            alert("hora");
+        break;
+        case c_people:
+            alert("pasajeros")
+        break;
+    }
+}
+function select_item()
+{
+    switch(true)
+    {
+        case s_destiny:
+            alert("destino");
+        break;
+        case s_hour:
+            alert("hora");
+        break;
+        case c_people:
+            alert("pasajeros")
+        break;
+    }
+}
+
+function go_next()
+{
+     switch(true)
+    {
+        case s_destiny:
+            alert("destino");
+        break;
+        case s_hour:
+            alert("hora");
+        break;
+        case c_people:
+            alert("pasajeros")
+        break;
+    }
+}
+
+//funciones del proceso
 function peticion_viaje()
 {
  dest_usuario = prompt("¿a que lugar desea viajar ?");
@@ -56,11 +131,6 @@ else{
     alert("lo sentimos no disponemos de ese destino");
 }
 }
-var dest_usuario;
-var hora_usuario;
-var pasajeros_cantidad;
 
-//peticion_viaje();
-//asignar_asientos();
 
 
