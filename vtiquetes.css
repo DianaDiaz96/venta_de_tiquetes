@@ -26,3 +26,8 @@ h1{
 .buttons{
     text-align: center;   
 }
+#parrafo_inicial{
+    background-color: grey;
+    color: black;
+    font-size: 30px;
+}
