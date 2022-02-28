@@ -89,7 +89,6 @@ function select_item()
         case c_people:
             alert("pasajeros")
         break;
-        default: s_destiny = true;
     }
 }
 
