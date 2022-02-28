@@ -71,6 +71,7 @@ function go_back()
         case c_people:
             alert("pasajeros")
         break;
+        default: s_destiny = true;
     }
 }
 function select_item()
@@ -120,6 +121,7 @@ function go_next()
         case c_people:
             alert("pasajeros")
         break;
+        default: s_destiny = true;
     }
 }
 
