@@ -1,4 +1,4 @@
-alert("hola mundo");
+
 class Transporte
 {
     constructor(n_vuelo, tipo, origen, destino, hora, asientos)
