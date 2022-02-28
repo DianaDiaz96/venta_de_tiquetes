@@ -25,7 +25,7 @@ var hora_usuario;
 var pasajeros_cantidad;
 
 //pregunta actual
-var s_destiny = true;
+var s_destiny = false;
 var s_hour = false;
 var c_people = false;
 var n_d = 0;
@@ -89,6 +89,7 @@ function select_item()
         case c_people:
             alert("pasajeros")
         break;
+        default: s_destiny = true;
     }
 }
 
